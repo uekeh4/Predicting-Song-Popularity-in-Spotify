@@ -88,5 +88,15 @@ Data Visualization: `ggplot2` for creating plots and `ggcorrplot` for the correl
 * **Dataset:** The original Spotify 2023 dataset was obtained from Kaggle.
    - [https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
 * **External Studies:** Our analysis was informed by previous research on music popularity and machine learning methods.
-   - Ordanini, A., Nunes, J. C., & Valsesia, F. (2018). The featuring phenomenon in music...
-   - Lee, J., & Lee, J. S. (2018). Music Popularity: Metrics, Characteristics, and Audio-based Prediction...
+   -  Dataset: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023
+- Lee, J., & Lee, J. S. (2018). Music Popularity: Metrics, Characteristics, and Audio-based Prediction. IEEE Transactions on Multimedia, 20(12), 3213-3224. Retrieved from https://arxiv.org/abs/1812.0055
+- Parth (2021). Duration of songs: How did the trend change over time and what does it mean today? Medium. Retrieved from https://parthmusic.medium.com/duration-of-songs-how-did-the-trend-change-over-time-and-what-does-it-mean-today-a41258a41b12.
+- Pham, J., Kyauk, E., & Park, E. (2015). Predicting Song Popularity. Stanford University. Retrieved from https://cs229.stanford.edu/proj2015/140_report.pdf
+- Ordanini, A., Nunes, J. C., & Valsesia, F. (2018). The featuring phenomenon in music: how combining artists of different genres increases a song’s popularity. Journal of Marketing Behavior, 3(2-3), 123-141. Retrieved from https://link.springer.com/article/10.1007/s11002-018-9476-3
+- AspiringYouths. (n.d.). Advantages and Disadvantages of KNN Algorithm. Retrieved from https://aspiringyouths.com/advantages-and-disadvantages-of-knn-algorithm/
+- GeeksforGeeks. (2024, March 12). KNN vs Decision Tree in Machine Learning. Retrieved from https://www.geeksforgeeks.org/knn-vs-decision-tree-in-machine-learning/
+- GeeksforGeeks. (n.d.). K-Nearest Neighbor(KNN) Algorithm - GeeksforGeeks. Retrieved from https://www.geeksforgeeks.org/k-nearest-neighbours/
+- Spotintelligence. (2023, August 22). K-Nearest Neighbours Explained, Practical Guide & How To Tutorial. Retrieved from https://spotintelligence.com/2023/08/22/k-nearest-neighbours-explained-practical-guide-how-to-tutorial/
+- Thomas, N. (2020, May 9). Using k-nearest neighbours to predict the genre of Spotify tracks. Retrieved from https://towardsdatascience.com/using-k-nearest-neighbours-to-predict-the-genre-of-spotify-tracks-5e7eb6f28e3
+- Sebastian, N., Jung, F., & Mayer, F. (2024). Beyond Beats: A Recipe to Song Popularity? A machine learning approach. Retrieved from https://arxiv.org/abs/2104.07670
+- Arora, S., & Rani, R. (2024). Soundtrack Success: Unveiling Song Popularity Patterns Using Machine Learning Implementation. Retrieved from https://link.springer.com/chapter/10.1007/978-981-15-3380-8_11
