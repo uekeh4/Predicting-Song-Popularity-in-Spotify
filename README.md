@@ -12,10 +12,13 @@ Our project uses a comprehensive dataset from Kaggle, featuring 943 of the most 
 We created several visualizations to explore trends within the dataset:
 
 - __Top 20 Artists by Song Count:__ A bar chart revealing the artists with the most songs on the charts.
+<img width="629.5" height="389" alt="image" src="https://github.com/user-attachments/assets/edf3c928-4d03-4eca-b4af-03dfaaf65295" />
 
 - __Correlation Heatmap:__ A heatmap displaying the correlation between the numeric variables. Most correlations were found to be relatively weak.
+<img width="629" height="389" alt="image" src="https://github.com/user-attachments/assets/69f10e9f-17ba-46e4-8063-ab4a297ee372" />
 
 - __Distribution of Streams by Key:__ A boxplot illustrating the distribution of stream counts across different musical keys. The analysis of variance (ANOVA) test found no significant difference in streams based on a song's key.
+<img width="629" height="389" alt="image" src="https://github.com/user-attachments/assets/2bef5f42-ff19-49cc-920e-85c3ee058879" />
 
 ### Objectives
 The primary goal of this project was to determine what constitutes a hit song. We aimed to:
@@ -31,7 +34,9 @@ The primary goal of this project was to determine what constitutes a hit song. W
 
 ### Exploratory Analysis Statistics
 - __Most Frequent Artist:__ Taylor Swift was identified as the most frequent artist in the dataset, followed by Bad Bunny and SZA.
-<img src="https://i8.amplience.net/i/naras/Taylor-Swift-Eras-Tour-Brazil-GettyImages-1801110030.jpg" alt="Taylor Swift" width="300"/> <img src="https://s.yimg.com/ny/api/res/1.2/HAc6Jv2BXy8yQxWMR2E44Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2025-03/d3998b90-fed1-11ef-9fbf-013757dd31af" alt="SZA" width="300"/> <img src="https://www.vibe.com/wp-content/uploads/2022/12/GettyImages-1420876485-e1672333142540.jpg?w=910&h=511&crop=1&resize=1440%2C810" alt="Bad Bunny" width="350"/>
+<img src="https://i8.amplience.net/i/naras/Taylor-Swift-Eras-Tour-Brazil-GettyImages-1801110030.jpg" alt="Taylor Swift" width="280"/> <img src="https://s.yimg.com/ny/api/res/1.2/HAc6Jv2BXy8yQxWMR2E44Q-
+                                                                                                                                        -/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2025-03/d3998b90-fed1-11ef-9fbf-013757dd31af" alt="SZA" width="280"/> <img src="https://www.vibe.com/wp-content/uploads/2022/12/GettyImages-1420876485-e1672333142540.jpg?w=910&h=511&crop=1&resize=1440%2C810" alt="Bad Bunny" width="320"/>
+
 - __Streams by Key:__ An analysis of variance (ANOVA) test was conducted to check for differences in stream counts across different keys. The test yielded a **p-value of 0.668**, which is greater than the typical significance level of 0.05, indicating no statistically significant difference in stream counts based on the song's key.
 
 ### Model Performance and Outcomes
@@ -72,6 +77,20 @@ The model's key findings were:
 - __Negative Impact:__ Higher speechiness (more lyrics) and an increased artist count were negatively associated with stream counts. This contradicts some industry beliefs and prior research on artist collaborations.
 
 - __Model Limitations:__ The model accounts for only 49.52% of the variation in streams, indicating that a significant portion of a song's success is influenced by factors not included in our analysis, such as marketing, social media virality, and artist popularity.
+### Model Visualizations
+
+#### Distribution of Normalized Streams
+This histogram shows the frequency of normalized stream counts. The green bars display a roughly symmetrical, bell-shaped distribution, confirming the successful transformation of the original data for use in our linear model.
+<img width="629.5" height="389" alt="image" src="https://github.com/user-attachments/assets/722374f4-fa8f-4b88-a6eb-c57b9df6298a" />
+
+#### Normal Q-Q Plot of Standardized Residuals
+This plot assesses whether the model's residuals follow a normal distribution. While the points largely align with the red line, their deviation at the ends indicates that the distribution's tails are heavier than expected, suggesting the presence of outliers.
+<img width="629.5" height="389" alt="image" src="https://github.com/user-attachments/assets/fb2dc74e-45af-4052-be94-254d087f08f0" />
+
+#### Residuals vs. Fitted Values Plot
+This plot displays the residuals against the fitted values to check for patterns. The points do not generally cluster around the red line at zero, which is indicative of heterodasticity. Some outliers and a slightly downward trend suggest potential issues with the model's assumptions.
+<img width="629.5" height="389" alt="image" src="https://github.com/user-attachments/assets/0cf7dc17-2cf8-4e70-8e7f-12241b2d607c" />
+
 
 ### Methods and Technology
 Languages: R
@@ -82,7 +101,8 @@ Data Processing: `dplyr` and `tidyverse` for data manipulation, cleaning, and tr
 
 Machine Learning: `tree` for decision trees, `randomForest` for random forests, and `glmnet` for LASSO and Ridge regression. `leaps` was used for subset selection.
 
-Data Visualization: `ggplot2` for creating plots and `ggcorrplot` for the correlation heatmap.
+Data Visualization: `ggplot2` for creating plots and `ggcorrplot` for the correlation heatmap. Base R for the distrubtion, Q-Q Plot and Residuals vs Fitted Plots
+
 #### In collaboration with Lauren Ellis, Orhan Gozutok, and Ava Meissner
 ### Relevant References
 * **Dataset:** The original Spotify 2023 dataset was obtained from Kaggle.
