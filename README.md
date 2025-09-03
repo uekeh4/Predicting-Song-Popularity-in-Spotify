@@ -34,8 +34,7 @@ The primary goal of this project was to determine what constitutes a hit song. W
 
 ### Exploratory Analysis Statistics
 - __Most Frequent Artist:__ Taylor Swift was identified as the most frequent artist in the dataset, followed by Bad Bunny and SZA.
-<img src="https://i8.amplience.net/i/naras/Taylor-Swift-Eras-Tour-Brazil-GettyImages-1801110030.jpg" alt="Taylor Swift" width="280"/> <img src="https://s.yimg.com/ny/api/res/1.2/HAc6Jv2BXy8yQxWMR2E44Q-
-                                                                                                                                        -/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2025-03/d3998b90-fed1-11ef-9fbf-013757dd31af" alt="SZA" width="280"/> <img src="https://www.vibe.com/wp-content/uploads/2022/12/GettyImages-1420876485-e1672333142540.jpg?w=910&h=511&crop=1&resize=1440%2C810" alt="Bad Bunny" width="320"/>
+<img src="https://i8.amplience.net/i/naras/Taylor-Swift-Eras-Tour-Brazil-GettyImages-1801110030.jpg" alt="Taylor Swift" width="280"/> <img src="https://s.yimg.com/ny/api/res/1.2/HAc6Jv2BXy8yQxWMR2E44Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2025-03/d3998b90-fed1-11ef-9fbf-013757dd31af" alt="Taylor Swift" width="280"/><img src="https://www.vibe.com/wp-content/uploads/2022/12/GettyImages-1420876485-e1672333142540.jpg?w=910&h=511&crop=1&resize=1440%2C810" alt="Bad Bunny" width="320"/>
 
 - __Streams by Key:__ An analysis of variance (ANOVA) test was conducted to check for differences in stream counts across different keys. The test yielded a **p-value of 0.668**, which is greater than the typical significance level of 0.05, indicating no statistically significant difference in stream counts based on the song's key.
 
